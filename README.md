@@ -56,13 +56,13 @@ Make sure to configure the variables according to your requirements.
 
 
 ## Examples
-For detailed examples on how to use this module, please refer to the [Examples](https://github.com/PrimeOps-Technologies/terraform-gcp-subnet/tree/master/example) directory within this repository.
+For detailed examples on how to use this module, please refer to the [Examples](https://github.com/PrimeOps-Technologies/terraform-google-subnet/tree/master/example) directory within this repository.
 
 ## Author
 Your Name Replace **MIT** and **PrimeOps-Technologies** with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
 
 ## License
-This project is licensed under the **MIT** License - see the [LICENSE](https://github.com/PrimeOps-Technologies/terraform-gcp-subnet/blob/master/LICENSE) file for details.
+This project is licensed under the **MIT** License - see the [LICENSE](https://github.com/PrimeOps-Technologies/terraform-google-subnet/blob/master/LICENSE) file for details.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
