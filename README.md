@@ -37,7 +37,7 @@ module "subnet" {
 ```hcl
 module "subnet" {
   source      = "git::https://github.com/PrimeOps-Technologies/terraform-google-subnet.git?ref=v1.0.0"
-  
+
   name = [
     "subnet-public-1",
     "subnet-public-2",
@@ -82,7 +82,7 @@ This project is licensed under the **MIT** License - see the [LICENSE](https://g
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | PrimeOps-Technologies/labels/google | 1.0.1 |
+| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/PrimeOps-Technologies/terraform-multicloud-labels.git | v1.0.0 |
 
 ## Resources
 
@@ -119,7 +119,7 @@ This project is licensed under the **MIT** License - see the [LICENSE](https://g
 | <a name="input_log_config"></a> [log\_config](#input\_log\_config) | Logging options for subnetwork flow logs. | <pre>object({<br>    enable               = optional(bool, false)<br>    aggregation_interval = optional(string)<br>    flow_sampling        = optional(number)<br>    metadata             = optional(string)<br>    metadata_fields      = optional(list(string))<br>    filter_expr          = optional(string)<br>  })</pre> | <pre>{<br>  "aggregation_interval": null,<br>  "enable": false,<br>  "filter_expr": null,<br>  "flow_sampling": null,<br>  "metadata": null,<br>  "metadata_fields": []<br>}</pre> | no |
 | <a name="input_log_enable"></a> [log\_enable](#input\_log\_enable) | Enable or disable logging for NAT. | `bool` | `true` | no |
 | <a name="input_log_filter"></a> [log\_filter](#input\_log\_filter) | Log filtering option (ERRORS\_ONLY, TRANSLATIONS\_ONLY, ALL). | `string` | `"ALL"` | no |
-| <a name="input_managedby"></a> [managedby](#input\_managedby) | ManagedBy, PrimeOps-Technologies. | `string` | `"PrimeOps-Technologies"` | no |
+| <a name="input_managedby"></a> [managedby](#input\_managedby) | ManagedBy,primeOps-technologies'. | `string` | `"primeOps-technologies"` | no |
 | <a name="input_module_timeouts"></a> [module\_timeouts](#input\_module\_timeouts) | Timeout configurations for operations. | `any` | `{}` | no |
 | <a name="input_multiple_subnets"></a> [multiple\_subnets](#input\_multiple\_subnets) | Set true for multiple subnets, false for single subnet | `bool` | `true` | no |
 | <a name="input_name"></a> [name](#input\_name) | List of subnet names | `any` | n/a | yes |
